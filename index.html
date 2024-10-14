@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
 	<title>Miki's Homepage</title>
 
-	<!-- Use UTF character set, a good idea with any webpage -->
 	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/homepage.css">
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 
-	<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
-		<section>
-			<h1>Miki's Homepage</h1>
-			<p>Shiba inu's are my favorite dog breed</p>
-			<div class="minor-section">
-					<!-- Note that all filenames use lowercase and no spaces -->
-					<img class="cat-photo" src="./img/cute-grey-kitten.jpg">
-					<h2>About Me</h2>
-					<p>Tell us about yourself. Add photos. Customize this. Go crazy.</p>
-			</div>
 
-		</section>
-		<nav id="links">
-			<!-- Put links to labs here. -->
-		</nav>
-	</main>
+		<div class="my-story-section">
+		<img id="portrait" src="img/portrait-photoism.jpg" alt="portrait-image" />
+			<h1>About</h1>
+			<p>Miki Foster (She/They)<br>21 years-old<br>Polynesian-Asian<br>
+				4th year Linguistics major</p>
+
+			<h3>Likes</h3>
+				<p>dogs (shiba's specifically), blue + earth tones, spongebob references, food,<br>
+					music, twitter, concerts, digital art, yapping</p>
+
+			<h3>Dislikes</h3>
+				<p>bugs, cold weather, rude people, no wifi,<br>
+					bad hair days, too much assignments and not enough time</p>
+		</div>
+
+		<div class="labs-section">
+			<h1>Labs</h1>
+			<ul class="lab-links">
+				<li><a href="lab2/index.html">Lab 2 - Html & CSS Starter</a></li>
+				<li><a href="lab3/index.html">Lab 3 - File Structure and File Transfer</a></li>
+				<li><a href="lab4/index.html">Lab 4 - Pseudocoding and Problem-Solving</a></li>
+				<li><a href="lab 5/index.html">Lab 5 - Data Types and Variables</a></li>
+				<li><a href="lab 6/index.html">Lab 6 - Arrays and Objects</a></li>
+			</ul>
+		</div>
+	
 </body>
 </html>
