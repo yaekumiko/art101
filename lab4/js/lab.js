@@ -46,7 +46,7 @@
 // 1. print board before each turn
       // create 6x7 grid
             // loop through each row
-                  // loop through each space
+            // loop through each space
       // set all positions to empty
 // 2. start game loop
       // if no winner and board is empty:
