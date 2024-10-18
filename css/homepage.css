@@ -17,7 +17,7 @@ body {
   padding: 20px;
   margin: 15px;
   margin-bottom: 2%;
-  background-color: #dddde2;
+  background-color: #f4ede5;
   overflow: hidden;
   position: relative;
 }
@@ -50,7 +50,7 @@ p {
   padding-bottom: 20px;
   margin: 15px;
   margin-bottom: 5%;
-  background-color: #dddde2;
+  background-color: #f4ede5;
 }
 
 .lab-links a {
