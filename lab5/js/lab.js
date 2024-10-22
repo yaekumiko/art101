@@ -5,6 +5,15 @@
  * License: Public Domain
  */
 
+function myFunction(param1, param2) {
+
+}
+function main() {
+  console.log("Main function started.");
+}
+
+main();
+
 // Define Variables
 make = "Lexus";
 model = "is250 F Sport";
